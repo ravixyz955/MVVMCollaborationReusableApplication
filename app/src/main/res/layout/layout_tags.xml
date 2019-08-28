@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="handler"
+            type="com.example.user.mvvmcollabreusableapp.fragment.CollabTagsDialogFragment" />
+
+        <variable
+            name="collabData"
+            type="com.example.user.mvvmcollabreusableapp.network.model.CollaborationData" />
+
+        <variable
+            name="followersData"
+            type="com.example.user.mvvmcollabreusableapp.network.model.FollowersData" />
+
+
+    </data>
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview_tags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:collabData="@{collabData}"
+            app:followersData="@{followersData}"
+            app:handler="@{handler}"
+            tools:context="com.example.user.mvvmcollabreusableapp.fragment.CollabTagsDialogFragment" />
+    </android.support.constraint.ConstraintLayout>
+</layout>

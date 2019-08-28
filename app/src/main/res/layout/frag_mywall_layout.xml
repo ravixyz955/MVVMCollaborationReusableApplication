@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:bind="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="isLoading"
+            type="boolean" />
+
+        <variable
+            name="handler"
+            type="com.example.user.mvvmcollabreusableapp.fragment.MyWallFragment" />
+
+        <variable
+            name="wallData"
+            type="java.util.List&lt;com.example.user.mvvmcollabreusableapp.network.model.CollaborationData&gt;" />
+
+        <variable
+            name="mywallModel"
+            type="com.example.user.mvvmcollabreusableapp.viewmodel.MyWallViewModel" />
+    </data>
+
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:visibility="visible">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mywall_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:scrollbars="vertical"
+            bind:handler="@{handler}"
+            bind:wallData="@{wallData}"
+            tools:context="com.xyz.xyzone.fragment.MyWallFragment" />
+
+        <include
+            layout="@layout/progress_bar"
+            bind:isLoading="@{isLoading}" />
+
+    </android.support.design.widget.CoordinatorLayout>
+</layout>

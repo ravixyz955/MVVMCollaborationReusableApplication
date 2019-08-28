@@ -1,0 +1,5 @@
+
+—squid:S1319"vThe type of the "attachments" object should be an interface such as "List" rather than the implementation "ArrayList".(¶˜ì‚ûÿÿÿÿ8ÏÚÉíÌ-
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(’£üï8ÏÚÉíÌ-
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ğŸ²¢ùÿÿÿÿ8ÏÚÉíÌ-
+osquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ªğîııÿÿÿÿ8ÏÚÉíÌ-

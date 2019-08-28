@@ -1,0 +1,4 @@
+
+squid:S1450"cRemove the "usersMutableLiveData" field and declare it as a local variable in the relevant methods.(Î©ºâ8©êÎ˜Í-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(æ€ïÕúÿÿÿÿ8©êÎ˜Í-
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Âùá#8©êÎ˜Í-

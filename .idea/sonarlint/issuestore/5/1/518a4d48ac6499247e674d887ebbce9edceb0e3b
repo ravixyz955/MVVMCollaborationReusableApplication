@@ -1,0 +1,15 @@
+
+\squid:S1126"AReplace this if-then-else statement by a single return statement.(ïĞ“a8Ñ»şåÌ-
+^squid:HiddenFieldCheck"7Rename "uri" which hides the field declared at line 64.(‡‰Ò­8Ñ»şåÌ-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ñ»şåÌ-
+hsquid:S1192"GDefine a constant instead of duplicating this literal "parent" 3 times.(‘ùÒáıÿÿÿÿ8Ñ»şåÌ-
+Psquid:S1066"/Merge this if statement with the enclosing one.(Œîøıÿÿÿÿ8Ñ»şåÌ-
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ÉÎÍïıÿÿÿÿ8Ñ»şåÌ-
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ğ¸™áúÿÿÿÿ8Ñ»şåÌ-
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(…†±Úÿÿÿÿÿ8Ñ»şåÌ-
+Zsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(Ş¨Šœ8Ñ»şåÌ-
+[squid:UnusedPrivateMethod",Remove this unused private "getList" method.(–›Õÿÿÿÿÿ8Ñ»şåÌ-
+€squid:S00116"^Rename this field "ATTACH_FILE_REQUEST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àéŞøÿÿÿÿ8Ñ»şåÌ-
+squid:S00116"_Rename this field "CAMERA_IMAGE_REQUEST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜‰Û®ùÿÿÿÿ8Ñ»şåÌ-
+Gsquid:S1068"+Remove this unused "context" private field.(Ÿä¡å8×÷”æÌ-
+rsquid:S1450"VRemove the "context" field and declare it as a local variable in the relevant methods.(Ÿä¡å8×÷”æÌ-

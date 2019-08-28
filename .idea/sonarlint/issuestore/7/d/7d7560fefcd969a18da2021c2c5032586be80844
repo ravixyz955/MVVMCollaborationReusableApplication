@@ -1,0 +1,11 @@
+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Úíîœýÿÿÿÿ8ëŸŽ™Í-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ó·€îüÿÿÿÿ8êŸŽ™Í-
+squid:S1450"`Remove the "projectAPIService" field and declare it as a local variable in the relevant methods.(þ’Œåûÿÿÿÿ8êŸŽ™Í-
+Osquid:S1172".Remove this unused method parameter "context".(Ùý¢‡üÿÿÿÿ8ëŸŽ™Í-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÑÖ¨„ùÿÿÿÿ8ëŸŽ™Í-
+Osquid:S1172".Remove this unused method parameter "context".(¶‡á„øÿÿÿÿ8ëŸŽ™Í-
+qsquid:S1192"PDefine a constant instead of duplicating this literal "https://collab." 7 times.(ƒÚ×þÿÿÿÿ8êŸŽ™Í-
+Jsquid:S1172".Remove this unused method parameter "context".(Í¯Ì8ëŸŽ™Í-
+Osquid:S1172".Remove this unused method parameter "context".(ªÓ³Íùÿÿÿÿ8ëŸŽ™Í-
+Jsquid:S1172".Remove this unused method parameter "context".(¶ÐâŸ8ëŸŽ™Í-
